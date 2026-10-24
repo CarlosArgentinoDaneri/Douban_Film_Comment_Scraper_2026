@@ -1,0 +1,15 @@
+# 采集与筛选产生的数据文件——不应提交到仓库
+*.csv
+*.json
+!keywords.example.json
+
+# 研究者自己的关键词配置
+keywords.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
